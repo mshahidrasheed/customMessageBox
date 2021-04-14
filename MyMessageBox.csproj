@@ -42,25 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MessageBoxNotify.cs">
+    <Compile Include="Forms\MessageBoxNotify.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MessageBoxNotify.Designer.cs">
+    <Compile Include="Forms\MessageBoxNotify.Designer.cs">
       <DependentUpon>MessageBoxNotify.cs</DependentUpon>
     </Compile>
-    <Compile Include="MessageBoxOK.cs">
+    <Compile Include="Forms\MessageBoxOK.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MessageBoxOK.Designer.cs">
+    <Compile Include="Forms\MessageBoxOK.Designer.cs">
       <DependentUpon>MessageBoxOK.cs</DependentUpon>
     </Compile>
-    <Compile Include="MessageBoxYesNo.cs">
+    <Compile Include="Forms\MessageBoxYesNo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MessageBoxYesNo.Designer.cs">
+    <Compile Include="Forms\MessageBoxYesNo.Designer.cs">
       <DependentUpon>MessageBoxYesNo.cs</DependentUpon>
     </Compile>
-    <Compile Include="MessageBoxType.cs" />
+    <Compile Include="Enums\MessageBoxType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -69,13 +69,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="MessageBoxNotify.resx">
+    <EmbeddedResource Include="Forms\MessageBoxNotify.resx">
       <DependentUpon>MessageBoxNotify.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MessageBoxOK.resx">
+    <EmbeddedResource Include="Forms\MessageBoxOK.resx">
       <DependentUpon>MessageBoxOK.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MessageBoxYesNo.resx">
+    <EmbeddedResource Include="Forms\MessageBoxYesNo.resx">
       <DependentUpon>MessageBoxYesNo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
