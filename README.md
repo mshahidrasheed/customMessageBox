@@ -3,6 +3,7 @@
 # Step 1:
 * Clone this project and load into Visual Studio
 * Build this project
+* Or find already Build MyMessageBox.dll file in Build folder
 
 # Step 2:
 * Add MyMessageBox.dll file in your current project References
