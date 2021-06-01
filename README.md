@@ -12,13 +12,6 @@
 
 * Call Show() function using Class name.
 
-# For Examples:
-**MessageBoxNotify.Show("message", "title", MessageBoxType.INFO);**
-
-**MessageBoxOk.Show("message", "title", MessageBoxType.INFO);**
-
-**MessageBoxYesNo.Show("message", "title", MessageBoxType.INFO);**
-
 There are three types of message box available
 * MessageBoxNotify
 * MessageBoxOk
@@ -32,3 +25,10 @@ MessageBoxOk show notification message and then wait for Ok click response.
 
 # MessageBoxYesNo
 MessageBoxYesNo show notification message and then wait for Yes / No click response.
+
+**For Example**
+MessageBoxNotify.Show("message", "title", MessageBoxType.INFO);
+**or**
+MessageBoxOk.Show("message", "title", MessageBoxType.INFO);
+**or**
+MessageBoxYesNo.Show("message", "title", MessageBoxType.INFO);
