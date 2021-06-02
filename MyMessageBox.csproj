@@ -84,6 +84,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Build\MyMessageBox.dll" />
     <Content Include="icons\error-48.png" />
     <Content Include="icons\error.png" />
     <Content Include="icons\info-48.png" />
