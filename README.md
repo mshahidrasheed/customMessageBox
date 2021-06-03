@@ -1,4 +1,6 @@
 # Custom Message Box, Custom Design
+Custom message box is a windows form application. Displays a message window, also known as a dialog box, which presents a message to the client. 
+A CustomMessageBox can contain three kinds of message boxes which show diffrent style of message dialogues
 
 # Step 1:
 * Clone this project and load into Visual Studio
