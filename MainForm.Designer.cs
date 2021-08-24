@@ -45,7 +45,7 @@
             this.pnlTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitleBar.Location = new System.Drawing.Point(0, 0);
             this.pnlTitleBar.Name = "pnlTitleBar";
-            this.pnlTitleBar.Size = new System.Drawing.Size(415, 28);
+            this.pnlTitleBar.Size = new System.Drawing.Size(532, 28);
             this.pnlTitleBar.TabIndex = 11;
             // 
             // titleLbl
@@ -56,9 +56,9 @@
             this.titleLbl.ForeColor = System.Drawing.SystemColors.Control;
             this.titleLbl.Location = new System.Drawing.Point(12, 5);
             this.titleLbl.Name = "titleLbl";
-            this.titleLbl.Size = new System.Drawing.Size(140, 18);
+            this.titleLbl.Size = new System.Drawing.Size(175, 18);
             this.titleLbl.TabIndex = 16;
-            this.titleLbl.Text = "Centered Application";
+            this.titleLbl.Text = "Centered Main Application";
             this.titleLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnClose
@@ -68,7 +68,7 @@
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Location = new System.Drawing.Point(387, 0);
+            this.btnClose.Location = new System.Drawing.Point(504, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(28, 28);
             this.btnClose.TabIndex = 0;
@@ -83,7 +83,7 @@
             this.btnOk.FlatAppearance.BorderSize = 0;
             this.btnOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOk.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnOk.Location = new System.Drawing.Point(117, 63);
+            this.btnOk.Location = new System.Drawing.Point(182, 66);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(190, 37);
             this.btnOk.TabIndex = 12;
@@ -98,7 +98,7 @@
             this.btnYesNo.FlatAppearance.BorderSize = 0;
             this.btnYesNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnYesNo.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnYesNo.Location = new System.Drawing.Point(117, 120);
+            this.btnYesNo.Location = new System.Drawing.Point(182, 123);
             this.btnYesNo.Name = "btnYesNo";
             this.btnYesNo.Size = new System.Drawing.Size(190, 37);
             this.btnYesNo.TabIndex = 13;
@@ -113,7 +113,7 @@
             this.btnNotify.FlatAppearance.BorderSize = 0;
             this.btnNotify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNotify.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnNotify.Location = new System.Drawing.Point(117, 176);
+            this.btnNotify.Location = new System.Drawing.Point(182, 179);
             this.btnNotify.Name = "btnNotify";
             this.btnNotify.Size = new System.Drawing.Size(190, 37);
             this.btnNotify.TabIndex = 14;
@@ -126,7 +126,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(152)))), ((int)(((byte)(166)))));
-            this.ClientSize = new System.Drawing.Size(415, 264);
+            this.ClientSize = new System.Drawing.Size(532, 278);
             this.ControlBox = false;
             this.Controls.Add(this.btnNotify);
             this.Controls.Add(this.btnYesNo);
