@@ -7,9 +7,7 @@ A CustomMessageBox can contain three kinds of message boxes which show diffrent 
 * Build this project
 * Or find already Build MyMessageBox.dll file in Build folder
 
-# Step 2:
-* Add MyMessageBox.dll file in your current project References
-* Add namespace of MyMessageBox in your Class
+![image](https://user-images.githubusercontent.com/43881236/130598983-c83d1d36-be2e-47dd-8498-df4bd53bd7a4.png)
 
 **using MyMessageBox;**
 
