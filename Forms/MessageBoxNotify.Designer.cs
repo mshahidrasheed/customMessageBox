@@ -49,6 +49,7 @@
             this.pnlTitleBar.Name = "pnlTitleBar";
             this.pnlTitleBar.Size = new System.Drawing.Size(404, 28);
             this.pnlTitleBar.TabIndex = 10;
+            this.pnlTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTitleBar_Paint);
             // 
             // titleLbl
             // 
@@ -90,7 +91,7 @@
             // 
             // typePicBox
             // 
-            this.typePicBox.Image = global::MyMessageBox.Properties.Resources.info;
+            this.typePicBox.Image = global::messagebox.Properties.Resources.info;
             this.typePicBox.Location = new System.Drawing.Point(10, 22);
             this.typePicBox.Name = "typePicBox";
             this.typePicBox.Size = new System.Drawing.Size(55, 55);

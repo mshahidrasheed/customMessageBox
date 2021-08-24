@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace MyMessageBox
@@ -49,16 +44,16 @@ namespace MyMessageBox
                 switch(value)
                 {
                     case MessageBoxType.INFO:
-                        this.typePicBox.Image = global::MyMessageBox.Properties.Resources.info;
+                        this.typePicBox.Image = global::messagebox.Properties.Resources.info;
                         break;
                     case MessageBoxType.WARNING:
-                        this.typePicBox.Image = global::MyMessageBox.Properties.Resources.warning;
+                        this.typePicBox.Image = global::messagebox.Properties.Resources.warning;
                         break;
                     case MessageBoxType.ERROR:
-                        this.typePicBox.Image = global::MyMessageBox.Properties.Resources.error;
+                        this.typePicBox.Image = global::messagebox.Properties.Resources.error;
                         break;
                     case MessageBoxType.OK:
-                        this.typePicBox.Image = global::MyMessageBox.Properties.Resources.success;
+                        this.typePicBox.Image = global::messagebox.Properties.Resources.success;
                         break;
                 }
             }
@@ -105,6 +100,11 @@ namespace MyMessageBox
             }
             
             return result;
+        }
+
+        private void pnlTitleBar_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
