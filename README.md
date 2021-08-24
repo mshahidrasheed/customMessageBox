@@ -19,14 +19,17 @@ There are three types of message box available
 
 # MessageBoxNotify
 MessageBoxNotify show notification message and then hide automatically.
+
 ![image](https://user-images.githubusercontent.com/43881236/130599290-d6ef05cd-b244-4dcd-9db2-6ec834d921c6.png)
 
 # MessageBoxOk
 MessageBoxOk show notification message and then wait for Ok click response.
+
 ![image](https://user-images.githubusercontent.com/43881236/130599344-25eda0f1-135b-40cb-999b-d7a3e2f19bf2.png)
 
 # MessageBoxYesNo
 MessageBoxYesNo show notification message and then wait for Yes / No click response.
+
 ![image](https://user-images.githubusercontent.com/43881236/130599405-481fe440-da67-4d41-a2e1-95196ae4f409.png)
 
 # For Example
